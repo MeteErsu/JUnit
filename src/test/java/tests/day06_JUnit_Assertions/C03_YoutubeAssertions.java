@@ -38,7 +38,7 @@ public class C03_YoutubeAssertions {
     @Test
     public void titleTest(){
         //	○ titleTest 	=> Sayfa başlığının “YouTube” oldugunu test edin
-        String expectedTitle = "Youtube";
+        String expectedTitle = "YouTube";
         String actualTitle = driver.getTitle();
         Assert.assertEquals(expectedTitle,actualTitle);
     }

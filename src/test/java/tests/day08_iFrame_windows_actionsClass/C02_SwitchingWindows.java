@@ -23,7 +23,7 @@ public class C02_SwitchingWindows extends TestBaseQuit {
 
         // Yeni bir tab olarak wise quarter anasayfaya gidin
         driver.switchTo().newWindow(WindowType.TAB).get("https://www.wisequarter.com");
-        // title'in Wise icerdigini test edin
+        // title'in Wise icerdigini test edinDuze
         String expectedTitleIcerik = "Wise";
         String actualTitle = driver.getTitle();
         Assert.assertTrue(actualTitle.contains(expectedTitleIcerik));
